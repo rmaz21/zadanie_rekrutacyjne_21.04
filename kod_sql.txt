@@ -1,0 +1,7 @@
+1.
+select recclass, avg(mass) from zadanie_rekrutacyjne
+group by recclass;
+2.
+select recclass from zadanie_rekrutacyne
+group by recclass
+having avg(mass) > 5000;
